@@ -806,6 +806,9 @@ body {
 	font-weight: 100;
 	margin: 20px 0;
 }
+.footer .footer_links {
+	padding: 15px 10px;
+}
 .footer .footer_links a {
 	text-decoration: none;
 	color: #494949;
@@ -1244,5 +1247,34 @@ body {
 	}
 	.newsletter_sec .sec2 input[type="email"] {
 		width: 68%;
+	}
+}
+
+@media only screen and (max-width:376px) {
+	.navigation {
+		padding: 20px 10px;
+	}
+	.logo img {
+		width: 90%;
+	}
+
+	.sixsec_sec .sec1 {
+		background: #fff url(../img/img5.jpg) no-repeat -10px -150px;
+		background-size: cover;
+	}
+
+	.multiple_sec {
+		width: 95%;
+	}
+	.multiple_sec .sec {
+		width: 25%;
+		margin: 0;
+	}
+	.multiple_sec .sec img {
+		margin-bottom: 0;
+	}
+
+	.newsletter_sec .sec2 input[type="email"] {
+		width: 50%;
 	}
 }
