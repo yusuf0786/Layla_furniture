@@ -9,6 +9,7 @@ let resp_nav_back = document.querySelector(".back")
 let resp_nav_li = document.querySelectorAll(".resp_nav .nav_pg_1 ul li")
 let resp_nav_decoration = resp_nav_li[1]
 let resp_nav_pg2 = document.querySelector(".resp_nav .nav_pg_2")
+let overlay = document.querySelector(".overlay")
 
 // doing the functions
 decoration_btn.addEventListener('mouseover', () => { decoration_tab.classList.add("decorationShow") })
@@ -19,6 +20,8 @@ decoration_tab.addEventListener('mouseleave', () => { decoration_tab.classList.r
 
 menu_btn.addEventListener("click", function(){
     resp_nav.classList.add("My_slideInRight")
+
+    overlay.style.display = "block"
 })
 resp_nav_close.addEventListener("click", function(){
     resp_nav.classList.remove("My_slideInRight")
@@ -27,6 +30,8 @@ resp_nav_close.addEventListener("click", function(){
     resp_nav_back.classList.remove("My_slideInRight")
     resp_nav_pg2.classList.remove("My_slideOutRight")
     resp_nav_back.classList.remove("My_slideOutRight")
+
+    overlay.style.display = "none"
 })
 resp_nav_decoration.addEventListener("click", function(){
     resp_nav_pg2.classList.remove("My_slideOutRight")
