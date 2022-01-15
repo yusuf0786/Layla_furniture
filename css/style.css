@@ -383,7 +383,7 @@ body {
 }
 .sixsec_sec .sec6 {
 	background: #fff url('../img/img9.jpg') no-repeat center;
-	background-size: cover;
+	background-size: 100%;
 }
 .sixsec_sec button {
 	margin-top: 48%;
@@ -497,41 +497,6 @@ body {
 	margin-top: 15px;
 }
 
-.shelf_sec {
-	width: 100%;
-	margin-top: 70px;
-	padding: 70px 0;
-	text-align: center;
-	background: #fff url('../img/img14.jpg') no-repeat center;
-	background-size: cover;
-	background-attachment: fixed;
-}
-.shelf_sec h1 {
-	font-size: 3rem;
-	font-weight: 400;
-	color: rgb(0, 0, 20);
-	opacity: 0.9;
-}
-.shelf_sec h3 {
-	font-size: 2rem;
-	font-weight: 400;
-	color: rgb(0, 0, 20);
-	margin-top: 20px;
-	opacity: 0.9;
-}
-.shelf_sec button {
-	border: 1px solid #fff;
-	border-radius: 40px;
-	color: rgba(95, 95, 95);
-	padding: 18px 30px;
-	transition-duration: 0.5s;
-	margin-top: 150px;
-}
-.shelf_sec button:hover {
-	background-color: #32cf9d;
-	color: #fff;
-}
-
 .threesec2_sec {
 	width: 90%;
 	margin: 0 auto;
@@ -597,6 +562,41 @@ body {
 	color: rgba(95, 95, 95);
 	padding: 12px;
 	margin-bottom: 13px;
+}
+
+.shelf_sec {
+	width: 100%;
+	margin-top: 70px;
+	padding: 70px 0;
+	text-align: center;
+	background: #fff url('../img/img14.jpg') no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.shelf_sec h1 {
+	font-size: 3rem;
+	font-weight: 400;
+	color: rgb(0, 0, 20);
+	opacity: 0.9;
+}
+.shelf_sec h3 {
+	font-size: 2rem;
+	font-weight: 400;
+	color: rgb(0, 0, 20);
+	margin-top: 20px;
+	opacity: 0.9;
+}
+.shelf_sec button {
+	border: 1px solid #fff;
+	border-radius: 40px;
+	color: rgba(95, 95, 95);
+	padding: 18px 30px;
+	transition-duration: 0.5s;
+	margin-top: 150px;
+}
+.shelf_sec button:hover {
+	background-color: #32cf9d;
+	color: #fff;
 }
 
 .multiple_sec {
@@ -938,6 +938,9 @@ body {
 		margin-right: 8%;
 		font-size: .75rem;
 	}
+	.tab_sec1 h3, .tab_sec2 h3, .tab_sec3 h3, .tab_sec4 h3 {
+		font-size: 1rem;
+	}
 
 	.threesec_sec h2 {
 		font-size: 1.2rem;
@@ -991,7 +994,7 @@ body {
 	}
 
 	.tab_sec1, .tab_sec2, .tab_sec3, .tab_sec4 {
-		margin-right: 4.7%;
+		margin-right: 2.2%;
 		font-size: .68rem;
 	}
 	.decorations_tab h3 {
@@ -1087,10 +1090,20 @@ body {
 	
 	.threesec2_sec {
 		margin-top: 50px;
+		padding-bottom: 20px;
 	}
 	.threesec2_sec .sec {
 		height: 393px;
 		margin-left: 3.3%;
+	}
+	.threesec2_sec .contsec h4 {
+		font-size: 1rem;
+	}
+	.threesec2_sec .contsec p {
+		font-size: 1rem;
+	}
+	.threesec2_sec .contsec p del {
+		font-size: 0.7rem;
 	}
 	
 	.multiple_sec {
@@ -1114,13 +1127,13 @@ body {
 		font-size: 0.85rem;
 	}
 	.threesec3_sec .sec1 {
-		background-size: 210%;
+		background-size: 230%;
 	}
 	.threesec3_sec .sec2 {
-		background-size: 210%;
+		background-size: 230%;
 	}
 	.threesec3_sec .sec3 {
-		background-size: 210%;
+		background-size: 230%;
 	}
 	
 	.newsletter_sec {
@@ -1153,8 +1166,18 @@ body {
 		display: block;
 	}
 
-	.carousel_sec h1 {
-		font-size: 2rem;
+	.my_caraousel_item {
+		height: 50vh;
+	}
+	.my_carousel_caption {
+		bottom: 10%;
+	}
+	.my_carousel_caption h3 {
+		font-size: 1.2rem;
+		margin-bottom: 1.3rem;
+	}
+	.mybutton {
+		font-size: 0.7rem;
 	}
 
 	.threesec_sec {
@@ -1290,5 +1313,23 @@ body {
 
 	.newsletter_sec .sec2 input[type="email"] {
 		width: 50%;
+	}
+}
+
+@media only screen and (max-width:321px) {
+	.mynavigation {
+		padding: 10px 7px;
+		height: 58px;
+	}
+	.logo img {
+		width: 70%;
+	}
+	.other_btns div {
+		margin-left: 3%;
+		font-size: 0.58rem;
+	}
+	.menu_btn {
+		margin-right: 2px;
+		font-size: 0.58rem;
 	}
 }
