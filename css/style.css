@@ -905,10 +905,10 @@ body {
 
 /* media query */
 @media only screen and (max-width:1025px) {
-	.nav {
+	.mynav {
 		margin-left: 13%;
 	}
-	.nav li {
+	.mynav li {
 		margin-right:5.5%;
 		font-size: .9rem;
 	}
@@ -958,13 +958,13 @@ body {
 }
 
 @media only screen and (max-width: 769px) {
-	.navigation {
+	.mynavigation {
 		padding: 20px 30px;
 	}
-	.nav {
+	.mynav {
 		margin-left: 8%;
 	}
-	.nav li {
+	.mynav li {
 		margin-right:4.8%;
 		font-size: .75rem;
 	}
@@ -1126,10 +1126,10 @@ body {
 }
 
 @media only screen and (max-width:426px) {
-	.navigation {
+	.mynavigation {
 		padding: 20px;
 	}
-	.nav {
+	.mynav {
 		display: none;
 	}
 
@@ -1258,7 +1258,7 @@ body {
 }
 
 @media only screen and (max-width:376px) {
-	.navigation {
+	.mynavigation {
 		padding: 20px 10px;
 	}
 	.logo img {
