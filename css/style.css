@@ -229,7 +229,7 @@ body {
 	width: 100%;
 	height: 100vh;
 	background: #fff url('../img/img1.jpg') no-repeat center;
-	background-size: 100%;
+	background-size: cover;
 }
 .my_carousel_caption {
 	bottom: 30%;
@@ -921,8 +921,8 @@ body {
 		margin-left: 13%;
 	}
 	.mynav li {
-		margin-right:5.5%;
-		font-size: .9rem;
+		margin-right:5%;
+		font-size: .8rem;
 	}
 
 	.other_btns div {
@@ -980,12 +980,12 @@ body {
 		margin-left: 8%;
 	}
 	.mynav li {
-		margin-right:4.8%;
-		font-size: .75rem;
+		margin-right:4%;
+		font-size: .7rem;
 	}
 
 	.other_btns div {
-		margin-left: 5.9%;
+		margin-left: 5%;
 		font-size: .7rem;
 	}
 
@@ -1002,24 +1002,6 @@ body {
 	}
 	.decorations_tab p {
 		margin-bottom: 15px;
-	}
-
-	.carousel_sec {
-		padding-top:23%;
-	}
-	.carousel_sec h1 {
-		font-size: 2.2rem;
-	}
-	.carousel_sec button {
-		margin-top: 50px;
-	}
-	.carousel_sec .left_arrow {
-		font-size: 2.5rem;
-		margin-top: 38px;
-	}
-	.carousel_sec .right_arrow {
-		font-size: 2.5rem;
-		margin-top: 38px;
 	}
 
 	.threesec_sec .threesec_sec1, .threesec_sec .threesec_sec3, .threesec_sec .threesec_sec2 {
