@@ -126,13 +126,9 @@ body {
 }
 .tab_sec1, .tab_sec2, .tab_sec3, .tab_sec4 {
 	float: left;
-	margin-right: 85px;
+	margin-right: 58px;
 	font-size: .9rem;
 	font-weight: 100;
-}
-.tab_sec4 {
-	float: right;
-	margin-right: 0;
 }
 .decorations_tab h3 {
 	margin-bottom: 20px;
@@ -952,13 +948,9 @@ body {
 	}
 
 	.tab_sec1, .tab_sec2, .tab_sec3, .tab_sec4 {
-		margin-right: 88px;
+		margin-right: 48px;
 		font-size: .75rem;
-	}
-	.tab_sec4 {
-		float: right;
-		margin-right: 0;
-	}
+	}	
 	.tab_sec1 h3, .tab_sec2 h3, .tab_sec3 h3, .tab_sec4 h3 {
 		font-size: 1rem;
 	}
@@ -1168,11 +1160,17 @@ body {
 	.other_btns {
 		width: 39%;
 	}
+	.other_btns div {
+		margin-left: 5px;
+	}
 
 	.menu_btn {
 		display: block;
 	}
 
+	#mycaraousel {
+		margin-top: 80px;
+	}
 	.my_caraousel_item {
 		height: 50vh;
 	}
@@ -1182,6 +1180,9 @@ body {
 	.my_carousel_caption h3 {
 		font-size: 1.2rem;
 		margin-bottom: 1.3rem;
+	}
+	.LR_arrow {
+		margin-top: 38px;
 	}
 	.mybutton {
 		font-size: 0.7rem;
